@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sherlock",
+      "password": "holmes",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "john",
+      "password": "watson",
+      "role": "admin"
+    },
+    {
+      "username": "arc",
+      "password": "hola",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "fal",
+      "password": "of",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "arcana",
+      "password": "123",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "qwer",
+      "password": "444",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "zxc",
+      "password": "1234",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "username": "123",
+      "password": "123",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "www",
+      "password": "www",
+      "role": "user",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": "Knoll Chair",
+      "image": "https://cdn.connox.com/m/100030/176929/media/Knoll/Platner-Armlehnstuhl/Knoll-Platner-Armlehnstuhl-divina.jpg",
+      "stock": 20,
+      "kategoriId": 2,
+      "harga": 300000,
+      "deskripsi": "how could this be",
+      "id": 1
+    },
+    {
+      "name": "Egg Chair",
+      "image": "https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2019/07/05/3764125017.jpg",
+      "stock": 35,
+      "kategoriId": 2,
+      "harga": 500000,
+      "deskripsi": "Try it",
+      "id": 2
+    },
+    {
+      "name": "Dining set",
+      "image": "https://cellini.co.id/wp-content/files_mf/1505438161KAy.jpg",
+      "stock": 3,
+      "kategoriId": 1,
+      "harga": 500000,
+      "deskripsi": "Dining table Surabaya",
+      "id": 3
+    },
+    {
+      "name": "Credenza",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/credenza-lead-1545243599.jpeg?resize=480:*",
+      "stock": 17,
+      "kategoriId": 3,
+      "harga": 185000,
+      "deskripsi": "Credenza manis",
+      "id": 4
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "meja"
+    },
+    {
+      "id": 2,
+      "nama": "kursi"
+    },
+    {
+      "id": 3,
+      "nama": "storage"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 1
+    }
+  ]
+}
