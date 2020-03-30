@@ -47,12 +47,6 @@
       "password": "123",
       "role": "user",
       "id": 8
-    },
-    {
-      "username": "www",
-      "password": "www",
-      "role": "user",
-      "id": 9
     }
   ],
   "products": [
