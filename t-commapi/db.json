@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sherlock",
+      "password": "holmes",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "john",
+      "password": "watson",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "name": "Knoll Chair",
+      "image": "https://cdn.connox.com/m/100030/176929/media/Knoll/Platner-Armlehnstuhl/Knoll-Platner-Armlehnstuhl-divina.jpg",
+      "stock": 20,
+      "kategoriId": 2,
+      "harga": 300000,
+      "deskripsi": "Knoll chair",
+      "id": 1
+    },
+    {
+      "name": "EGG CHAIR",
+      "image": "https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2019/07/05/3764125017.jpg",
+      "stock": 35,
+      "kategoriId": 2,
+      "harga": 500000,
+      "dimensi": "Overall 45 W/ 90H",
+      "deskripsi": "Excellent condition, all original, and beautiful yellow/orange fabric! Minimal if any notable wear",
+      "id": 2
+    },
+    {
+      "name": "CAYDEN CAMPAIGN 4-DOOR GLASS SIDEBOARD & HUTCH",
+      "image": "./image/living-1.jpg",
+      "stock": 5,
+      "kategoriId": 3,
+      "harga": 325000,
+      "dimensi": "\"Overall: 91\\\"W x 18\\\"D x 91\\\"H\"",
+      "deskripsi": "European campaign furnishings of the 19th century inspired our collection by the Van Thiels, echoed in the simple strength of the shapes, the rustic grain of the solid oak and the hand-cast metal hardware with corner brackets that accent each piece. Subtle details including tapered legs and concealed hinges lend refinement to the clean, forthright silhouettes.",
+      "id": 5
+    },
+    {
+      "name": "CAYDEN CAMPAIGN GLASS DOUBLE-DOOR CABINET",
+      "image": "./image/living-3.jpg",
+      "stock": 7,
+      "kategoriId": 3,
+      "harga": 350000,
+      "dimensi": "Overall: 38\\\"W x 18\\\"D x 82\\\"H",
+      "deskripsi": "European campaign furnishings of the 19th century inspired our collection by the Van Thiels, echoed in the simple strength of the shapes, the rustic grain of the solid oak and the hand-cast metal hardware with corner brackets that accent each piece. Subtle details including tapered legs and concealed hinges lend refinement to the clean, forthright silhouettes.",
+      "id": 6
+    },
+    {
+      "name": "CAYDEN CAMPAIGN GLASS 4-DOOR SIDEBOARD WITH DRAWERS",
+      "image": "./image/living-2.jpg",
+      "stock": 12,
+      "kategoriId": 3,
+      "harga": 225000,
+      "dimensi": "",
+      "deskripsi": "European campaign furnishings of the 19th century inspired our collection by the Van Thiels, echoed in the simple strength of the shapes, the rustic grain of the solid oak and the hand-cast metal hardware with corner brackets that accent each piece. Subtle details including tapered legs and concealed hinges lend refinement to the clean, forthright silhouettes.",
+      "id": 7
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "meja"
+    },
+    {
+      "id": 2,
+      "nama": "kursi"
+    },
+    {
+      "id": 3,
+      "nama": "storage"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 1
+    }
+  ]
+}
